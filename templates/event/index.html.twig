@@ -1,9 +1,6 @@
 {% extends 'base.html.twig' %}
     {% block stylesheets %}
         <style>
-            body {
-                background-image:url('{{asset('bg/party.png') }}');
-            }
             #zoom:hover {
                 -ms-transform: scale(1.1); /* IE 9 */
                 -webkit-transform: scale(1.1); /* Safari 3-8 */
@@ -41,7 +38,7 @@
     {% endif %}
     <h1 class=" text-center" style="background-color: white">Liste des événements</h1>
     {% for event in events %}
-        <div class="media" id="zoom" style="border: 2px solid rgb(80,80,80);margin:10px;padding: 15px;border-radius: 5% 8% 13% 3%;background-color: white;">
+        <div class="media" id="zoom" style="border: 1px solid rgb(80,80,80);box-shadow: 5px 5px #EEEEEE;margin:10px;padding: 15px;background-color: white;">
             <div class="media-body">
                 <h4 class="media-heading">
                     <a href="{{ path('event.show',{id:event.id}) }}">

@@ -1,14 +1,7 @@
 {% extends 'base.html.twig' %}
-    {% block stylesheets %}
-        <style>
-            body {
-                background-image:url('{{asset('/bg/ev.jpg') }}');
-            }
-        </style>
-    {% endblock %}
+
 {% block body %}
 
-<link rel="stylesheet" href="{{ asset("/bootstrap.min.css") }}">
 <div class="align-content-center">
     {{ form_start(form) }}
     <div class="jumbotron" style="background-color: white">
