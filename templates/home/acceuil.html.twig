@@ -15,17 +15,14 @@
     }
     #about1 {
         padding:10px;
-        background-image: url("{{ asset("/img/space2.gif")}}") ;
         margin-bottom:40px;
     }
     #about2 {
         padding:10px;
-        background-image: url("{{ asset("/img/space1.gif")}}") ;
         margin-bottom:40px;
     }
     #about3 {
         padding:10px;
-        background-image: url("{{ asset("/img/space3.gif")}}") ;
         margin-bottom:40px;
     }
 
@@ -70,11 +67,8 @@
         font-size: 16px;
         padding: 16px 32px;
     }
-    body{
-        background-image: url({{ asset('accueil.jpg') }});
-    }
     h4,h1{
-        color:white;
+        color:black;
     }
 </style>
 {% endblock %}
@@ -137,26 +131,6 @@
             </a>
         </div>
     <br>
-     <div class="row" >
-        <div class="col-6 " >
-          <div class="container1 container">
-              <img src="{{ asset("/events.gif")}}" alt="First slide" class="image img2" height="250px" width="250px" >
-            <div class="middle">
-                <a href="{{ path('event.index') }}"><div class="text" style="text-decoration: none">Evénements</div> </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-6 " >
-            <div class="container1 container">
-                <img src="{{ asset("/club.gif")}}" alt="First slide" class="image img2" height="250px" width="250px" >
-                <div class="middle">
-                    <a href="{{ path('club') }}" style="text-decoration: none" ><div class="text">Clubs</div></a>
-                </div>
-            </div>
-        </div>
-      </div>
-    <br><br>
-    </div>
 <div class="container">
     <h1 style="text-align: center"> Votre passion est notre intérêt : Bienvenue</h1><br>
     <h4 >Vue l’absence d’un site Web spécialement conçu pour les activités des clubs, nous avons décidé que ce serait une bonne idée de créer notre propre plateforme afin de rester en contact avec les événements se déroulant au sein de notre université INSAT.<br>
