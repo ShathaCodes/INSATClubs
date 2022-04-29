@@ -7,3 +7,6 @@ With our website, you can create a Student account, login and subscribe to diffe
 
 
 You can also create a Club account so you can publish your events on our website! You will be able to access a list of students subscribed to your clubs and lists of subscribed students for each event post. You will also get notified by each new subscription and/or comment on your events.
+
+
+![execution](https://raw.githubusercontent.com/ShathaCodes/INSATClubs/main/execution.PNG)
